@@ -11,6 +11,8 @@ def get_favorite_vegetable():
     where X is replaced with the user's favorite vegetable.
     """
     # write your code here.
+    veg = input("Hey! What's your favourite vegetable? ")
+    print("Interesting! I also love ", veg)
 
 
 def get_favorite_number():
@@ -20,6 +22,8 @@ def get_favorite_number():
     where X is replaced with the user's favorite number.
     """
     # write your code here.
+    num = int(input("Hey! What's your favourite number? "))
+    print("Interesting! I also love ", num)
 
 
 def get_name_and_zodiac_sign():
@@ -30,6 +34,9 @@ def get_name_and_zodiac_sign():
     where X and Y are replaced by the user's name and zodiac sign, respectively.
     """
     # write your code here.
+    name = input("Hey! What's your name? ")
+    zod = input("Oh that's nice, what about your zodiac sign? ")
+    print("Interesting! My name is also " + name + ", and I'm also a " + zod + "!")
 
 
 def get_name_and_age():
@@ -40,3 +47,6 @@ def get_name_and_age():
     where X and Y are replaced by the user's name and age, respectively.
     """
     # write your code here.
+    name = input("Hey! What's your name? ")
+    age = input("Oh that's nice, how old are you? ")
+    print("Interesting! My name is also "+name+", and I'm also "+age+" years old!")
